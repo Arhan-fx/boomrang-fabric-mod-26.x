@@ -17,8 +17,13 @@ public final class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
     }
 
+
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
+        itemModelGenerators.generateFlatItem(
+                ModItems.SIMPLE_BOOMERANG,
+                ModelTemplates.FLAT_ITEM
+        );
         itemModelGenerators.generateFlatItem(
                 ModItems.TNT_BOOMERANG,
                 ModelTemplates.FLAT_ITEM

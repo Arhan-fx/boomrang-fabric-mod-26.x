@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 
 public class BOOMRANG implements ModInitializer {
 
-	public static final String MOD_ID = "boomerang";
+	public static final String MOD_ID = "boomrang";
 	public static final Logger LOGGER =
 			LoggerFactory.getLogger(MOD_ID);
 
