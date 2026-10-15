@@ -1,4 +1,4 @@
-# BOOMRANG
+# BOOMRANG (No texture and 3d model warning)
 
 This is a simple minecraft mod made with pure rage caused by my other hardware stuffs that I have been making, on top of that frustration due to compitative exams
 
