@@ -8,6 +8,7 @@ This mod feature 5 boomerang and requires ## Version 26.1.2
 3. Ender Boomerang
 4. Fire Boomerang
 5. Ice Boomerang
+   And to play this mod download "boomrang-1.0.0-26.1.2.jar" from this repo
 ## Setup
 
 For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
