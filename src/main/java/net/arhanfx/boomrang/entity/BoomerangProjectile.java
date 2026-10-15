@@ -120,12 +120,14 @@ public class BoomerangProjectile extends ThrowableItemProjectile {
         }
 
         // Outbound flight.
-        if (!returning) {
-            outboundTicks++;
-            applyOutboundCurve();
+        {
+            if (!returning) {
+                outboundTicks++;
+                applyOutboundCurve();
 
-            if (outboundTicks >= MAX_OUTBOUND_TICKS) {
-                beginReturning();
+                if (outboundTicks >= MAX_OUTBOUND_TICKS) {
+                    beginReturning();
+                }
             }
         }
 

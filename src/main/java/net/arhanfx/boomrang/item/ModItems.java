@@ -24,8 +24,6 @@ public class ModItems {
             registerBoomerang("fire_boomerang", 250);
     public static final Item ICE_BOOMERANG =
             registerBoomerang("ice_boomerang", 32);
-    public static final Item RANGE_ENCHANTMENT_BOOK =
-            registerPlainItem("range_enchantment_book");
     private static Item registerBoomerang(String name, int durability) {
         return registerItem(
                 name,
@@ -68,10 +66,5 @@ public class ModItems {
                     output.accept(FIRE_BOOMERANG);
                     output.accept(ICE_BOOMERANG);
                 });
-
-        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS)
-                .register(output ->
-                        output.accept(RANGE_ENCHANTMENT_BOOK)
-                );
     }
 }
