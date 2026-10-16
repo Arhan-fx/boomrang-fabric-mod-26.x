@@ -18,4 +18,4 @@ For setup instructions, please see the [Fabric Documentation page](https://docs.
 This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
 
 ![Image 1](image1.png)   
-![Image 2](image2.png)   
+![Image 2](testimage2.png)   
