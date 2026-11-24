@@ -13,6 +13,12 @@ This mod feature 5 boomerang and requires ## Version 26.1.2
 
 For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
 
+Download the [boomrang-1.0.0-26.1.2.jar](https://github.com/Arhan-fx/boomrang-fabric-mod-26.x/releases/tag/v0.0.1)
+Press Win+R and type "%appdata%" and press enter
+Got to .minecraft then mods and paste the boomrang-1.0.0-26.1.2.jar file
+Then run the minecraft Java edition with version 26.1.2 Fabric
+
+
 ## License
 
 This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
